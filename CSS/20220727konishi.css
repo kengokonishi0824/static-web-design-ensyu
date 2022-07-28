@@ -38,8 +38,13 @@ h1,h2{
   padding-bottom: 15px;
 }
 
+
 h1{
   color: #B31667;
+  padding-top: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+
 }
 
 h2{
@@ -47,7 +52,7 @@ h2{
 }
 
 #main{
-  margin-bottom: 300px;
+  margin-bottom: 150px;
 }
 em{
   color: #25A6B5;
@@ -62,24 +67,27 @@ em{
 .title-main{
   position: absolute;
   top: 5%;
-  left: 20%;
+  left: 35%;
   font-size: 45px;
   line-height: 150%;
   color: #AF256C;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
 
 }
 
 .title-sub{
   position: absolute;
-  bottom: 20%;
-  left: 20%;
-  font-size: 30px;
+  bottom: 30%;
+  left: 35%;
+  font-size: 20px;
   line-height: 130%;
   color: #AF256C;
+  font-weight: bold;
 }
 
 .small-text-main{
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 
@@ -164,13 +172,17 @@ em{
 }
 
 .picture-about{
-  width: 40%;
 }
 
 .text-about,.picture-about{
-  padding-right: 10%;
   font-size: 20px;
+  width: 50%;
 }
+
+.text-about{
+  padding-right: 10%;
+}
+
 
 #service{
   margin-bottom: 100px;
@@ -288,7 +300,6 @@ em{
 
 #blog{
   margin-bottom: 100px;
-  padding-top: 150px;
   background-color: #F5F5F5;
 }
 
@@ -311,7 +322,7 @@ em{
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
-  height: 500px;
+  height: 430px;
 }
 
 .card-blog{
@@ -496,7 +507,7 @@ table{
 
 .link-contact{
   position: absolute;
-  background-color: #FC1E8D;
+  background:linear-gradient(90deg, #FC1E8D,#840050) ;
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 140px;
@@ -506,6 +517,7 @@ table{
   color: white;
   font-size: 20px;
   border-radius: 50px;
+  box-shadow: 0 10px 5px #840050;
   
 
 }
